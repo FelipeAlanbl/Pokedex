@@ -1,0 +1,51 @@
+.container-pokebola {
+    margin: 0 auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.link-button {
+    background-color: red;
+    border: 1px solid blue;
+    color: yellow;
+    padding:10px  40px;
+    border-radius: 10px;
+}
+
+.list-type {
+    display: flex;
+}
+
+.list-type .type {
+    width: 50px;
+}
+
+.stats-table {
+    width: 350px;
+    display: flex;
+    padding: 5px;
+}
+
+.stats-col {
+    width: 50%;
+}
+
+.stats-bar {
+    width: 100%;
+    background-color:#bbb;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.progress {
+    background-color: sienna;
+    color: #fff;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #ccc;
+}

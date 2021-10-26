@@ -1,0 +1,132 @@
+.card {
+    width: 250px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+}
+
+.number {
+    position: absolute;
+    left: -2px;
+    top: -16px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.name {
+    text-transform: uppercase;
+    }
+
+.type {
+    display: flex;
+    align-items: center;
+}
+
+.type ul {
+    margin: 0;
+    padding: 0;
+}
+
+.type li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.stats {
+    text-align: left;
+}
+
+.stats ul {
+    margin: 0;
+    padding: 0;
+}
+.stats li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.grass {
+    background-color: green;
+}
+
+.poison {
+    background-color: purple;
+}
+
+.fire {
+    background-color: red;
+}
+
+.flying {
+    background-color: powderblue;
+}
+
+.water {
+    background-color: blue;
+}
+
+.bug {
+    background-color: rebeccapurple;
+}
+
+.normal {
+    background-color: salmon;
+}
+
+.electric {
+    background-color: yellow;
+}
+
+.ground {
+    background-color: brown;
+}
+
+.fairy {
+    background-color: rosybrown;
+}
+
+.fighting {
+    background-color: silver;
+}
+
+.psychic {
+    background-color: palevioletred;
+}
+
+.rock {
+    background-color: peru;
+}
+
+.steel {
+    background-color: slategray;
+}
+
+.ice {
+    background-color: cadetblue;
+}
+
+.ghost {
+    background-color: violet;
+}
+
+.dragon {
+    background-color: tomato;
+}
